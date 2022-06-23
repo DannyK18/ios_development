@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB22EE792858F80100AB0EA8 /* blickbirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22EE782858F80100AB0EA8 /* blickbirdApp.swift */; };
+		CB22EE7B2858F80100AB0EA8 /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22EE7A2858F80100AB0EA8 /* DetailRow.swift */; };
+		CB22EE7D2858F80700AB0EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB22EE7C2858F80700AB0EA8 /* Assets.xcassets */; };
+		CB22EE802858F80700AB0EA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB22EE7F2858F80700AB0EA8 /* Preview Assets.xcassets */; };
+		CB22EE8A2858F80800AB0EA8 /* blickbirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22EE892858F80800AB0EA8 /* blickbirdTests.swift */; };
+		CB22EE942858F80800AB0EA8 /* blickbirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22EE932858F80800AB0EA8 /* blickbirdUITests.swift */; };
+		CB22EE962858F80800AB0EA8 /* blickbirdUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22EE952858F80800AB0EA8 /* blickbirdUITestsLaunchTests.swift */; };
+		CB22EEA32859012400AB0EA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22EEA22859012400AB0EA8 /* ContentView.swift */; };
+		CB22EEA52859023800AB0EA8 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22EEA42859023800AB0EA8 /* Contact.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB22EE862858F80800AB0EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB22EE6D2858F80100AB0EA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB22EE742858F80100AB0EA8;
+			remoteInfo = blickbird;
+		};
+		CB22EE902858F80800AB0EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB22EE6D2858F80100AB0EA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB22EE742858F80100AB0EA8;
+			remoteInfo = blickbird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB22EE752858F80100AB0EA8 /* blickbird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blickbird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB22EE782858F80100AB0EA8 /* blickbirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blickbirdApp.swift; sourceTree = "<group>"; };
+		CB22EE7A2858F80100AB0EA8 /* DetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRow.swift; sourceTree = "<group>"; };
+		CB22EE7C2858F80700AB0EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB22EE7F2858F80700AB0EA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB22EE852858F80800AB0EA8 /* blickbirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blickbirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB22EE892858F80800AB0EA8 /* blickbirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blickbirdTests.swift; sourceTree = "<group>"; };
+		CB22EE8F2858F80800AB0EA8 /* blickbirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blickbirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB22EE932858F80800AB0EA8 /* blickbirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blickbirdUITests.swift; sourceTree = "<group>"; };
+		CB22EE952858F80800AB0EA8 /* blickbirdUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blickbirdUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB22EEA22859012400AB0EA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB22EEA42859023800AB0EA8 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB22EE722858F80100AB0EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB22EE822858F80800AB0EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB22EE8C2858F80800AB0EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB22EE6C2858F80100AB0EA8 = {
+			isa = PBXGroup;
+			children = (
+				CB22EE772858F80100AB0EA8 /* blickbird */,
+				CB22EE882858F80800AB0EA8 /* blickbirdTests */,
+				CB22EE922858F80800AB0EA8 /* blickbirdUITests */,
+				CB22EE762858F80100AB0EA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB22EE762858F80100AB0EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB22EE752858F80100AB0EA8 /* blickbird.app */,
+				CB22EE852858F80800AB0EA8 /* blickbirdTests.xctest */,
+				CB22EE8F2858F80800AB0EA8 /* blickbirdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB22EE772858F80100AB0EA8 /* blickbird */ = {
+			isa = PBXGroup;
+			children = (
+				CB22EE782858F80100AB0EA8 /* blickbirdApp.swift */,
+				CB22EE7A2858F80100AB0EA8 /* DetailRow.swift */,
+				CB22EEA22859012400AB0EA8 /* ContentView.swift */,
+				CB22EEA42859023800AB0EA8 /* Contact.swift */,
+				CB22EE7C2858F80700AB0EA8 /* Assets.xcassets */,
+				CB22EE7E2858F80700AB0EA8 /* Preview Content */,
+			);
+			path = blickbird;
+			sourceTree = "<group>";
+		};
+		CB22EE7E2858F80700AB0EA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB22EE7F2858F80700AB0EA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB22EE882858F80800AB0EA8 /* blickbirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB22EE892858F80800AB0EA8 /* blickbirdTests.swift */,
+			);
+			path = blickbirdTests;
+			sourceTree = "<group>";
+		};
+		CB22EE922858F80800AB0EA8 /* blickbirdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB22EE932858F80800AB0EA8 /* blickbirdUITests.swift */,
+				CB22EE952858F80800AB0EA8 /* blickbirdUITestsLaunchTests.swift */,
+			);
+			path = blickbirdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB22EE742858F80100AB0EA8 /* blickbird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB22EE992858F80800AB0EA8 /* Build configuration list for PBXNativeTarget "blickbird" */;
+			buildPhases = (
+				CB22EE712858F80100AB0EA8 /* Sources */,
+				CB22EE722858F80100AB0EA8 /* Frameworks */,
+				CB22EE732858F80100AB0EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blickbird;
+			productName = blickbird;
+			productReference = CB22EE752858F80100AB0EA8 /* blickbird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB22EE842858F80800AB0EA8 /* blickbirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB22EE9C2858F80800AB0EA8 /* Build configuration list for PBXNativeTarget "blickbirdTests" */;
+			buildPhases = (
+				CB22EE812858F80800AB0EA8 /* Sources */,
+				CB22EE822858F80800AB0EA8 /* Frameworks */,
+				CB22EE832858F80800AB0EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB22EE872858F80800AB0EA8 /* PBXTargetDependency */,
+			);
+			name = blickbirdTests;
+			productName = blickbirdTests;
+			productReference = CB22EE852858F80800AB0EA8 /* blickbirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB22EE8E2858F80800AB0EA8 /* blickbirdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB22EE9F2858F80800AB0EA8 /* Build configuration list for PBXNativeTarget "blickbirdUITests" */;
+			buildPhases = (
+				CB22EE8B2858F80800AB0EA8 /* Sources */,
+				CB22EE8C2858F80800AB0EA8 /* Frameworks */,
+				CB22EE8D2858F80800AB0EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB22EE912858F80800AB0EA8 /* PBXTargetDependency */,
+			);
+			name = blickbirdUITests;
+			productName = blickbirdUITests;
+			productReference = CB22EE8F2858F80800AB0EA8 /* blickbirdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB22EE6D2858F80100AB0EA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CB22EE742858F80100AB0EA8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CB22EE842858F80800AB0EA8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CB22EE742858F80100AB0EA8;
+					};
+					CB22EE8E2858F80800AB0EA8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CB22EE742858F80100AB0EA8;
+					};
+				};
+			};
+			buildConfigurationList = CB22EE702858F80100AB0EA8 /* Build configuration list for PBXProject "blickbird" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB22EE6C2858F80100AB0EA8;
+			productRefGroup = CB22EE762858F80100AB0EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB22EE742858F80100AB0EA8 /* blickbird */,
+				CB22EE842858F80800AB0EA8 /* blickbirdTests */,
+				CB22EE8E2858F80800AB0EA8 /* blickbirdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB22EE732858F80100AB0EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB22EE802858F80700AB0EA8 /* Preview Assets.xcassets in Resources */,
+				CB22EE7D2858F80700AB0EA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB22EE832858F80800AB0EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB22EE8D2858F80800AB0EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB22EE712858F80100AB0EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB22EEA52859023800AB0EA8 /* Contact.swift in Sources */,
+				CB22EE7B2858F80100AB0EA8 /* DetailRow.swift in Sources */,
+				CB22EE792858F80100AB0EA8 /* blickbirdApp.swift in Sources */,
+				CB22EEA32859012400AB0EA8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB22EE812858F80800AB0EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB22EE8A2858F80800AB0EA8 /* blickbirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB22EE8B2858F80800AB0EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB22EE942858F80800AB0EA8 /* blickbirdUITests.swift in Sources */,
+				CB22EE962858F80800AB0EA8 /* blickbirdUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB22EE872858F80800AB0EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB22EE742858F80100AB0EA8 /* blickbird */;
+			targetProxy = CB22EE862858F80800AB0EA8 /* PBXContainerItemProxy */;
+		};
+		CB22EE912858F80800AB0EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB22EE742858F80100AB0EA8 /* blickbird */;
+			targetProxy = CB22EE902858F80800AB0EA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB22EE972858F80800AB0EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB22EE982858F80800AB0EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB22EE9A2858F80800AB0EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"blickbird/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Klimchuk.blickbird";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB22EE9B2858F80800AB0EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"blickbird/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Klimchuk.blickbird";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB22EE9D2858F80800AB0EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Klimchuk.blickbirdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blickbird.app/blickbird";
+			};
+			name = Debug;
+		};
+		CB22EE9E2858F80800AB0EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Klimchuk.blickbirdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blickbird.app/blickbird";
+			};
+			name = Release;
+		};
+		CB22EEA02858F80800AB0EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Klimchuk.blickbirdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = blickbird;
+			};
+			name = Debug;
+		};
+		CB22EEA12858F80800AB0EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Klimchuk.blickbirdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = blickbird;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB22EE702858F80100AB0EA8 /* Build configuration list for PBXProject "blickbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB22EE972858F80800AB0EA8 /* Debug */,
+				CB22EE982858F80800AB0EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB22EE992858F80800AB0EA8 /* Build configuration list for PBXNativeTarget "blickbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB22EE9A2858F80800AB0EA8 /* Debug */,
+				CB22EE9B2858F80800AB0EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB22EE9C2858F80800AB0EA8 /* Build configuration list for PBXNativeTarget "blickbirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB22EE9D2858F80800AB0EA8 /* Debug */,
+				CB22EE9E2858F80800AB0EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB22EE9F2858F80800AB0EA8 /* Build configuration list for PBXNativeTarget "blickbirdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB22EEA02858F80800AB0EA8 /* Debug */,
+				CB22EEA12858F80800AB0EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB22EE6D2858F80100AB0EA8 /* Project object */;
+}
